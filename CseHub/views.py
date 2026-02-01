@@ -2,4 +2,4 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def home(request):
-    return HttpResponse("I am Debjyoti Saha")
+    return render(request, 'index.html')
